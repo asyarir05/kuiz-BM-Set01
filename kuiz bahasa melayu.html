@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuiz Bahasa Melayu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .question p {
+            margin: 0;
+            font-weight: bold;
+        }
+        .options {
+            margin-top: 10px;
+        }
+        .options label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Kuiz Bahasa Melayu</h1>
+        <form id="quizForm">
+            <!-- Soalan 1 hingga 40 -->
+            <div class="question">
+                <p>1. Pilih perkataan yang betul untuk melengkapkan ayat: "Dia ___ bermain bola di padang."</p>
+                <div class="options">
+                    <label><input type="radio" name="q1" value="A"> A) Sedang</label>
+                    <label><input type="radio" name="q1" value="B"> B) Telah</label>
+                    <label><input type="radio" name="q1" value="C"> C) Masih</label>
+                    <label><input type="radio" name="q1" value="D"> D) Akan</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>2. Pilih perkataan yang sesuai untuk melengkapkan ayat: "Mereka ___ ke sekolah setiap pagi."</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Pergi</label>
+                    <label><input type="radio" name="q2" value="B"> B) Datang</label>
+                    <label><input type="radio" name="q2" value="C"> C) Pulang</label>
+                    <label><input type="radio" name="q2" value="D"> D) Tinggal</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>3. Apakah sinonim bagi perkataan "cantik"?</p>
+                <div class="options">
+                    <label><input type="radio" name="q3" value="A"> A) Ganas</label>
+                    <label><input type="radio" name="q3" value="B"> B) Jelita</label>
+                    <label><input type="radio" name="q3" value="C"> C) Hodoh</label>
+                    <label><input type="radio" name="q3" value="D"> D) Lambat</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>4. Pilih perkataan yang betul untuk melengkapkan ayat: "Kucing itu ___ di atas bumbung rumah."</p>
+                <div class="options">
+                    <label><input type="radio" name="q4" value="A"> A) Duduk</label>
+                    <label><input type="radio" name="q4" value="B"> B) Terbang</label>
+                    <label><input type="radio" name="q4" value="C"> C) Berlari</label>
+                    <label><input type="radio" name="q4" value="D"> D) Berehat</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>5. Ayat berikut mengandungi kesalahan tatabahasa. Pilih jawapan yang betul: "Mereka sudah sampai semalam."</p>
+                <div class="options">
+                    <label><input type="radio" name="q5" value="A"> A) Mereka sampai semalam.</label>
+                    <label><input type="radio" name="q5" value="B"> B) Mereka sudah sampai kelmarin.</label>
+                    <label><input type="radio" name="q5" value="C"> C) Mereka tiba semalam.</label>
+                    <label><input type="radio" name="q5" value="D"> D) Mereka akan sampai semalam.</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>6. Pilih perkataan yang betul untuk melengkapkan ayat: "Dia ___ buku itu dengan berhati-hati."</p>
+                <div class="options">
+                    <label><input type="radio" name="q6" value="A"> A) Membaca</label>
+                    <label><input type="radio" name="q6" value="B"> B) Melihat</label>
+                    <label><input type="radio" name="q6" value="C"> C) Membeli</label>
+                    <label><input type="radio" name="q6" value="D"> D) Menjual</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>7. Apakah maksud "pandai"?</p>
+                <div class="options">
+                    <label><input type="radio" name="q7" value="A"> A) Bodoh</label>
+                    <label><input type="radio" name="q7" value="B"> B) Bijak</label>
+                    <label><input type="radio" name="q7" value="C"> C) Ganas</label>
+                    <label><input type="radio" name="q7" value="D"> D) Malas</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>8. Pilih perkataan yang betul untuk melengkapkan ayat: "Guru besar ___ ucapan sempena Hari Guru."</p>
+                <div class="options">
+                    <label><input type="radio" name="q8" value="A"> A) Mengajak</label>
+                    <label><input type="radio" name="q8" value="B"> B) Memberikan</label>
+                    <label><input type="radio" name="q8" value="C"> C) Membaca</label>
+                    <label><input type="radio" name="q8" value="D"> D) Menyampaikan</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>9. Pilih perkataan yang sesuai untuk melengkapkan ayat: "Dia ___ pergi ke perpustakaan setiap hari."</p>
+                <div class="options">
+                    <label><input type="radio" name="q9" value="A"> A) Selalu</label>
+                    <label><input type="radio" name="q9" value="B"> B) Kadang-kadang</label>
+                    <label><input type="radio" name="q9" value="C"> C) Jarang</label>
+                    <label><input type="radio" name="q9" value="D"> D) Sekali</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>10. Apakah antonim bagi perkataan "cepat"?</p>
+                <div class="options">
+                    <label><input type="radio" name="q10" value="A"> A) Lambat</label>
+                    <label><input type="radio" name="q10" value="B"> B) Kencang</label>
+                    <label><input type="radio" name="q10" value="C"> C) Pantas</label>
+                    <label><input type="radio" name="q10" value="D"> D) Ganas</label>
+                </div>
+            </div>
+
+                        <div class="question">
+                <p>11. Pilih perkataan yang sesuai untuk melengkapkan ayat: "Ibu sedang ___ sayur di dapur."</p>
+                <div class="options">
+                    <label><input type="radio" name="q11" value="A"> A) Menggoreng</label>
+                    <label><input type="radio" name="q11" value="B"> B) Memotong</label>
+                    <label><input type="radio" name="q11" value="C"> C) Memasak</label>
+                    <label><input type="radio" name="q11" value="D"> D) Mencuci</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>12. Ayat berikut mengandungi kesalahan tatabahasa. Pilih jawapan yang betul: "Saya makan sudah."</p>
+                <div class="options">
+                    <label><input type="radio" name="q12" value="A"> A) Saya sudah makan.</label>
+                    <label><input type="radio" name="q12" value="B"> B) Saya makan sudah tadi.</label>
+                    <label><input type="radio" name="q12" value="C"> C) Saya makan sekarang.</label>
+                    <label><input type="radio" name="q12" value="D"> D) Saya baru makan sudah.</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>13. Apakah maksud perkataan "bercakap"?</p>
+                <div class="options">
+                    <label><input type="radio" name="q13" value="A"> A) Duduk</label>
+                    <label><input type="radio" name="q13" value="B"> B) Diam</label>
+                    <label><input type="radio" name="q13" value="C"> C) Bertutur</label>
+                    <label><input type="radio" name="q13" value="D"> D) Berjalan</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>14. Pilih perkataan yang betul untuk melengkapkan ayat: "Mereka ___ gembira selepas memenangi pertandingan."</p>
+                <div class="options">
+                    <label><input type="radio" name="q14" value="A"> A) Sangat</label>
+                    <label><input type="radio" name="q14" value="B"> B) Terlalu</label>
+                    <label><input type="radio" name="q14" value="C"> C) Cukup</label>
+                    <label><input type="radio" name="q14" value="D"> D) Amat</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>15. Pilih perkataan yang betul untuk melengkapkan ayat: "Dia ___ nasi lemak setiap pagi."</p>
+                <div class="options">
+                    <label><input type="radio" name="q15" value="A"> A) Menjual</label>
+                    <label><input type="radio" name="q15" value="B"> B) Memasak</label>
+                    <label><input type="radio" name="q15" value="C"> C) Membeli</label>
+                    <label><input type="radio" name="q15" value="D"> D) Makan</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>16. Apakah sinonim bagi perkataan "gembira"?</p>
+                <div class="options">
+                    <label><input type="radio" name="q16" value="A"> A) Sedih</label>
+                    <label><input type="radio" name="q16" value="B"> B) Bahagia</label>
+                    <label><input type="radio" name="q16" value="C"> C) Marah</label>
+                    <label><input type="radio" name="q16" value="D"> D) Risau</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>17. Pilih perkataan yang sesuai untuk melengkapkan ayat: "Kucing itu ___ tinggi di atas pokok."</p>
+                <div class="options">
+                    <label><input type="radio" name="q17" value="A"> A) Lompat</label>
+                    <label><input type="radio" name="q17" value="B"> B) Berlari</label>
+                    <label><input type="radio" name="q17" value="C"> C) Duduk</label>
+                    <label><input type="radio" name="q17" value="D"> D) Panjat</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>18. Ayat berikut mengandungi kesalahan tatabahasa. Pilih jawapan yang betul: "Dia mahu saya untuk pergi."</p>
+                <div class="options">
+                    <label><input type="radio" name="q18" value="A"> A) Dia mahu saya pergi.</label>
+                    <label><input type="radio" name="q18" value="B"> B) Dia mahu saya untuk sampai.</label>
+                    <label><input type="radio" name="q18" value="C"> C) Dia mahukan saya pergi.</label>
+                    <label><input type="radio" name="q18" value="D"> D) Dia mahu untuk pergi.</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>19. Apakah maksud "besar"?</p>
+                <div class="options">
+                    <label><input type="radio" name="q19" value="A"> A) Kecil</label>
+                    <label><input type="radio" name="q19" value="B"> B) Luas</label>
+                    <label><input type="radio" name="q19" value="C"> C) Tinggi</label>
+                    <label><input type="radio" name="q19" value="D"> D) Panjang</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>20. Pilih perkataan yang sesuai untuk melengkapkan ayat: "Adik sedang ___ TV di ruang tamu."</p>
+                <div class="options">
+                    <label><input type="radio" name="q20" value="A"> A) Menonton</label>
+                    <label><input type="radio" name="q20" value="B"> B) Mendengar</label>
+                    <label><input type="radio" name="q20" value="C"> C) Memasak</label>
+                    <label><input type="radio" name="q20" value="D"> D) Membaca</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>21. Pilih perkataan yang betul untuk melengkapkan ayat: "Pelajar itu ___ dengan penuh tumpuan."</p>
+                <div class="options">
+                    <label><input type="radio" name="q21" value="A"> A) Membaca</label>
+                    <label><input type="radio" name="q21" value="B"> B) Menulis</label>
+                    <label><input type="radio" name="q21" value="C"> C) Mencari</label>
+                    <label><input type="radio" name="q21" value="D"> D) Menjawab</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>22. Pilih perkataan yang sesuai untuk melengkapkan ayat: "Ali selalu ___ bas ke sekolah."</p>
+                <div class="options">
+                    <label><input type="radio" name="q22" value="A"> A) Naik</label>
+                    <label><input type="radio" name="q22" value="B"> B) Turun</label>
+                    <label><input type="radio" name="q22" value="C"> C) Bawa</label>
+                    <label><input type="radio" name="q22" value="D"> D) Beli</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>23. Apakah sinonim bagi perkataan "pendek"?</p>
+                <div class="options">
+                    <label><input type="radio" name="q23" value="A"> A) Tinggi</label>
+                    <label><input type="radio" name="q23" value="B"> B) Rendah</label>
+                    <label><input type="radio" name="q23" value="C"> C) Cepat</label>
+                    <label><input type="radio" name="q23" value="D"> D) Lambat</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>24. Pilih perkataan yang sesuai untuk melengkapkan ayat: "Puan Aminah sedang ___ kek untuk majlis hari jadi anaknya."</p>
+                <div class="options">
+                    <label><input type="radio" name="q24" value="A"> A) Membeli</label>
+                    <label><input type="radio" name="q24" value="B"> B) Memotong</label>
+                    <label><input type="radio" name="q24" value="C"> C) Memasak</label>
+                    <label><input type="radio" name="q24" value="D"> D) Membuat</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>25. Pilih perkataan yang betul untuk melengkapkan ayat: "Mereka ___ di tepi pantai sambil menikmati pemandangan."</p>
+                <div class="options">
+                    <label><input type="radio" name="q25" value="A"> A) Berjalan</label>
+                    <label><input type="radio" name="q25" value="B"> B) Berlari</label>
+                    <label><input type="radio" name="q25" value="C"> C) Duduk</label>
+                    <label><input type="radio" name="q25" value="D"> D) Berdiri</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>26. Apakah antonim bagi perkataan "panas"?</p>
+                <div class="options">
+                    <label><input type="radio" name="q26" value="A"> A) Sejuk</label>
+                    <label><input type="radio" name="q26" value="B"> B) Dingin</label>
+                    <label><input type="radio" name="q26" value="C"> C) Hangat</label>
+                    <label><input type="radio" name="q26" value="D"> D) Terik</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>27. Pilih perkataan yang sesuai untuk melengkapkan ayat: "Pekerja itu sedang ___ mesin yang rosak."</p>
+                <div class="options">
+                    <label><input type="radio" name="q27" value="A"> A) Memperbaiki</label>
+                    <label><input type="radio" name="q27" value="B"> B) Membuat</label>
+                    <label><input type="radio" name="q27" value="C"> C) Memasang</label>
+                    <label><input type="radio" name="q27" value="D"> D) Memotong</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>28. Apakah sinonim bagi perkataan "cepat"?</p>
+                <div class="options">
+                    <label><input type="radio" name="q28" value="A"> A) Lambat</label>
+                    <label><input type="radio" name="q28" value="B"> B) Laju</label>
+                    <label><input type="radio" name="q28" value="C"> C) Lemah</label>
+                    <label><input type="radio" name="q28" value="D"> D) Berat</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>29. Pilih perkataan yang betul untuk melengkapkan ayat: "Guru sedang ___ murid-murid tentang tatabahasa."</p>
+                <div class="options">
+                    <label><input type="radio" name="q29" value="A"> A) Menerangkan</label>
+                    <label><input type="radio" name="q29" value="B"> B) Membaca</label>
+                    <label><input type="radio" name="q29" value="C"> C) Menyusun</label>
+                    <label><input type="radio" name="q29" value="D"> D) Menulis</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>30. Pilih perkataan yang sesuai untuk melengkapkan ayat: "Murid-murid itu ___ bola di padang semasa waktu rehat."</p>
+                <div class="options">
+                    <label><input type="radio" name="q30" value="A"> A) Menyepak</label>
+                    <label><input type="radio" name="q30" value="B"> B) Melontar</label>
+                    <label><input type="radio" name="q30" value="C"> C) Memukul</label>
+                    <label><input type="radio" name="q30" value="D"> D) Melambung</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>31. Ayat berikut mengandungi kesalahan tatabahasa. Pilih jawapan yang betul: "Saya sedang buat kerja rumah."</p>
+                <div class="options">
+                    <label><input type="radio" name="q31" value="A"> A) Saya sedang menyiapkan kerja rumah.</label>
+                    <label><input type="radio" name="q31" value="B"> B) Saya buat kerja rumah sekarang.</label>
+                    <label><input type="radio" name="q31" value="C"> C) Saya sudah buat kerja rumah.</label>
+                    <label><input type="radio" name="q31" value="D"> D) Saya buat rumah kerja.</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>32. Pilih perkataan yang betul untuk melengkapkan ayat: "Adik sedang ___ permainan di komputer."</p>
+                <div class="options">
+                    <label><input type="radio" name="q32" value="A"> A) Bermain</label>
+                    <label><input type="radio" name="q32" value="B"> B) Menonton</label>
+                    <label><input type="radio" name="q32" value="C"> C) Membaca</label>
+                    <label><input type="radio" name="q32" value="D"> D) Mendengar</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>33. Apakah antonim bagi perkataan "kaya"?</p>
+                <div class="options">
+                    <label><input type="radio" name="q33" value="A"> A) Miskin</label>
+                    <label><input type="radio" name="q33" value="B"> B) Bijak</label>
+                    <label><input type="radio" name="q33" value="C"> C) Cekap</label>
+                    <label><input type="radio" name="q33" value="D"> D) Lemah</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>34. Pilih perkataan yang sesuai untuk melengkapkan ayat: "Mereka ___ pulang ke kampung pada hujung minggu."</p>
+                <div class="options">
+                    <label><input type="radio" name="q34" value="A"> A) Sering</label>
+                    <label><input type="radio" name="q34" value="B"> B) Kadang-kadang</label>
+                    <label><input type="radio" name="q34" value="C"> C) Sentiasa</label>
+                    <label><input type="radio" name="q34" value="D"> D) Jarang</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>35. Pilih perkataan yang sesuai untuk melengkapkan ayat: "Pokok itu ___ apabila angin bertiup kencang."</p>
+                <div class="options">
+                    <label><input type="radio" name="q35" value="A"> A) Berputar</label>
+                    <label><input type="radio" name="q35" value="B"> B) Bergoyang</label>
+                    <label><input type="radio" name="q35" value="C"> C) Bergoncang</label>
+                    <label><input type="radio" name="q35" value="D"> D) Bertiup</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>36. Apakah sinonim bagi perkataan "sedih"?</p>
+                <div class="options">
+                    <label><input type="radio" name="q36" value="A"> A) Duka</label>
+                    <label><input type="radio" name="q36" value="B"> B) Gembira</label>
+                    <label><input type="radio" name="q36" value="C"> C) Sakit</label>
+                    <label><input type="radio" name="q36" value="D"> D) Sabar</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>37. Pilih perkataan yang betul untuk melengkapkan ayat: "Dia tidak dapat hadir ke sekolah kerana ___."</p>
+                <div class="options">
+                    <label><input type="radio" name="q37" value="A"> A) Makan</label>
+                    <label><input type="radio" name="q37" value="B"> B) Sakit</label>
+                    <label><input type="radio" name="q37" value="C"> C) Tertidur</label>
+                    <label><input type="radio" name="q37" value="D"> D) Bermain</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>38. Pilih perkataan yang sesuai untuk melengkapkan ayat: "Ayah sedang ___ kereta di luar rumah."</p>
+                <div class="options">
+                    <label><input type="radio" name="q38" value="A"> A) Mencuci</label>
+                    <label><input type="radio" name="q38" value="B"> B) Memasak</label>
+                    <label><input type="radio" name="q38" value="C"> C) Membaca</label>
+                    <label><input type="radio" name="q38" value="D"> D) Menonton</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>39. Pilih perkataan yang betul untuk melengkapkan ayat: "Anak-anak itu ___ dengan gembira di taman permainan."</p>
+                <div class="options">
+                    <label><input type="radio" name="q39" value="A"> A) Berlari</label>
+                    <label><input type="radio" name="q39" value="B"> B) Bermain</label>
+                    <label><input type="radio" name="q39" value="C"> C) Duduk</label>
+                    <label><input type="radio" name="q39" value="D"> D) Berdiri</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>40. Pilih perkataan yang sesuai untuk melengkapkan ayat: "Puan Lim sedang ___ bunga di taman rumahnya."</p>
+                <div class="options">
+                    <label><input type="radio" name="q40" value="A"> A) Memetik</label>
+                    <label><input type="radio" name="q40" value="B"> B) Menanam</label>
+                    <label><input type="radio" name="q40" value="C"> C) Menyiram</label>
+                    <label><input type="radio" name="q40" value="D"> D) Memotong</label>
+                </div>
+            </div>
+
+            <button type="button" onclick="checkAnswers()">Hantar Jawapan</button>
+        </form>
+        <p id="result"></p>
+    </div>
+
+    <script>
+        function checkAnswers() {
+            var totalQuestions = 40;
+            var correctAnswers = ["A", "A", "B", "D", "A", "A", "B", "D", "A", "A", "C", "A", "C", "D", "D", "B", "D", "A", "B", "A", "A", "A", "B", "D", "C", "A", "B", "B", "A", "A", "A", "A", "A", "A", "B", "A", "A", "B", "B", "D"];
+            var score = 0;
+
+            for (var i = 1; i <= totalQuestions; i++) {
+                var selectedAnswer = document.querySelector('input[name="q' + i + '"]:checked');
+                if (selectedAnswer && selectedAnswer.value === correctAnswers[i - 1]) {
+                    score++;
+                }
+            }
+
+            var resultText = "Anda mendapat " + score + " daripada " + totalQuestions + " markah.";
+            if (score === totalQuestions) {
+                resultText += " Tahniah! Anda mendapat markah penuh!";
+            }
+            document.getElementById("result").innerText = resultText;
+        }
+    </script>
+</body>
+</html>
+
